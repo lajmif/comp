@@ -9,7 +9,7 @@ const sneakers = ({spadriet, chaine, handlePrice}) => {
         (
           <div>
            <h1>{el.id}</h1>
-           <h1>{el.brand}</h1>
+           <h1>{el.model}</h1>
            <button onClick={()=> handlePrice(el.brand, el.price)}>PRICE</button>
            </div>
           )
